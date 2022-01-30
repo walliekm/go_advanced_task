@@ -23,9 +23,8 @@ func main() {
 			return
 		}
 
-		//其它错误，记录日志并返回错误，然后结束
-		log.Printf("dao query fail:%+v", err)
-		fmt.Printf("Server internal error")
+		log.Printf("dao query fail:%+v", err) //记录日志
+		fmt.Printf("Server internal error")   //返回错误提示
 		return
 	}
 
