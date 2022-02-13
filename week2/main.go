@@ -51,5 +51,5 @@ func main() {
 		log.Println("group err:", err)
 	}
 
-	log.Println("all groutinue is done, exit!")
+	log.Println("all goroutine is exit!")
 }
